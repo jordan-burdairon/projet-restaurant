@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+.body_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(./img/la-patatita-fond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  margin: 0% 15%;
+}
+
+.header-fond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.header-fond .header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 100%;
+  height: 50px;
+}
+
+.header-fond .header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-fond .header-nav ul li {
+  text-align: center;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 50px;
+  margin: 5px;
+  list-style: none;
+  font-size: 30px;
+}
+
+.header-fond .header-nav ul li a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
+.img-fond {
+  width: 100%;
+  margin-top: 55px;
+}
+
+#about_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 200px;
+  color: white;
+  text-align: center;
+}
+
+#about_container h2 {
+  font-size: 50px;
+  font-family: 'Port Lligat Slab', serif;
+  padding-bottom: 60px;
+}
+
+#about_container p {
+  line-height: 1.7em;
+  word-spacing: 0.4em;
+}
+
+#main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main_container .top_container, #main_container .bottom_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-position: -250px;
+  padding: 0px 100px;
+  padding-top: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main_container .top_container .img-menu, #main_container .bottom_container .img-menu {
+  width: 90%;
+  padding-bottom: -75px;
+}
+
+#main_container li {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+#plats_container, .salads_container, .boisson_container, .dessert_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#plats_container ul, .salads_container ul, .boisson_container ul, .dessert_container ul {
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+#location_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 300px;
+}
+
+#location_container h2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Port Lligat Slab', serif;
+  padding-bottom: 20px;
+}
+
+.ligne-bottom {
+  width: 80%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-top: 80px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer h2 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Port Lligat Slab', serif;
+  padding-bottom: 40px;
+}
+
+a {
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  color: #937F37;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+  padding-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7em;
+  word-spacing: 0.25em;
+}
+
+.linea-menu {
+  width: 100%;
+  margin-top: -65px;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  background: #E9C441;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.button #icone {
+  height: 72px;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: black;
+  }
+  .body_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    justify-items: center;
+    background-size: auto;
+  }
+  .header-fond .header-nav ul li a {
+    font-size: 10px;
+    padding: 0px;
+  }
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-fond {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
